@@ -1,0 +1,29 @@
+[
+    {
+        "videoId": 1,
+        "title": "hazil video",
+        "userId": 1,
+        "link": "dars.mp4",
+        "size": 361231,
+        "time": "2020-12-12T19:00",
+        "mime": "video/mp4"
+    },
+    {
+        "videoId": 2,
+        "title": "salom dunyo",
+        "userId": 2,
+        "link": "dars-2.mov",
+        "size": 361231,
+        "time": "2020-12-12T19:00",
+        "mime": "video/mp4"
+    },
+    {
+        "videoId": 3,
+        "title": "video",
+        "size": 52428800,
+        "link": "ClickUpvaSlack2.mp4",
+        "time": 1661784958099,
+        "mime": "video/mp4",
+        "userId": 2
+    }
+]
