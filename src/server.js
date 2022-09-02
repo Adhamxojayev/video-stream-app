@@ -13,10 +13,10 @@ app.use(cors())
 app.use(express.json())
 app.use(fileUpload())
 app.use(morgan("combined", { stream: accessLogStream }));
+app.use(express.static(path.resolve(process.cwd(), 'uploads')))
 
 app.use(userRouter)
 app.use(videoRouter);
-
 
 
 app.use(errorHandler);
