@@ -8,7 +8,6 @@ router.post('/login', validation, userController.LOGIN)
 router.post("/register", validation, userController.REGISTER);
 router.get('/users', userController.GET)
 router.get('/checktoken', validation, userController.TOKEN)
-
-
+router.get('/check-token', validation, userController.TOKEN)
 
 export default router
